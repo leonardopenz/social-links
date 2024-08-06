@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lato:wght@300;400;700;900&display=swap");
+
+:root {
+  --color-gradient-blue: #5579ba;
+  --color-gradient-green: #41a377;
+  --color-font: #919193;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +14,11 @@
 
 html {
   height: 100vh;
+  font-size: 14px;
 }
 
 body {
-  background: url("./assets/images/bg2.jpg");
+  background: url("/assets/images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -28,4 +36,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.profile-picture {
+  width: 120px;
+  border-radius: 50%;
+}
+.gradient {
+  background: linear-gradient(to right, var(--color-gradient-blue), var(--color-gradient-green));
+}
+.username {
+  font-weight: 400;
+  font-size: 2em;
+  margin: 16px 0;
+}
+
+.description {
+  font-size: 1em;
+  color: var(--color-font);
 }
