@@ -4,6 +4,7 @@
   --color-gradient-blue: #5579ba;
   --color-gradient-green: #41a377;
   --color-font: #919193;
+  --color-link: white;
 }
 
 * {
@@ -54,4 +55,31 @@ body {
 .description {
   font-size: 1em;
   color: var(--color-font);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 2em 0;
+  gap: 1.5em;
+}
+
+.list-item {
+  font-size: 1.2em;
+  padding: 0em 45px;
+  height: 4em;
+  border-radius: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social-logo {
+  height: 40px; /* Ajusta o tamanho da imagem */
 }
