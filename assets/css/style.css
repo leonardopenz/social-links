@@ -72,14 +72,23 @@ a {
 
 .list-item {
   font-size: 1.2em;
-  padding: 0em 45px;
   height: 4em;
   border-radius: 2em;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .social-logo {
   height: 40px; /* Ajusta o tamanho da imagem */
+}
+
+.link {
+  padding: 0em 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.link > img {
+  width: 1.2em;
 }
