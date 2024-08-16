@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Lato:wght@300;400;700;900&display=swap");
 
 :root {
-  --color-gradient-blue: #5579ba;
-  --color-gradient-green: #41a377;
+  --color-gradient-blue: #0072ff;
+  --color-gradient-green: #00c6ff;
   --color-font: #919193;
   --color-link: white;
 }
