@@ -19,6 +19,10 @@ Este projeto é uma página de social link simples, desenvolvida em HTML e CSS, 
 - Implementação de responsividade para garantir que a página seja acessível e utilizável em diferentes dispositivos;
 - Adição de cores e estilos personalizados aos botões de links.
 
+## Prints da Aplicação
+
+- Visualização do projeto em layout resposivo ![Print do projeto](./assets/images/print-social-link-responsivo.png)
+
 ## Autor
 
 Desenvolvido por Leonardo Penz. Baseado nas aulas do curso [ProgramadorBR](https://www.programadorbr.com/).
